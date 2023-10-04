@@ -47,4 +47,14 @@ public class AirplaneTest {
         Assert.assertEquals(coverage, coverage);
     }
 
+
+    @Feature("Entertainment")
+    @Severity(SeverityLevel.MINOR)
+    @Test(priority = 2, enabled = false)
+    public void entertainmentSystem_2023() {
+        //Dummy code
+        int coverage = 100;
+        Assert.assertEquals(coverage, coverage);
+    }
+
 }
